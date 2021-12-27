@@ -4,6 +4,61 @@
     "D:\\SideProject\\NetToolSample\\NetToolSample\\NetToolSample.csproj": {}
   },
   "projects": {
+    "D:\\SideProject\\NetToolSample\\CommandLine\\CommandLine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SideProject\\NetToolSample\\CommandLine\\CommandLine.csproj",
+        "projectName": "CommandLine",
+        "projectPath": "D:\\SideProject\\NetToolSample\\CommandLine\\CommandLine.csproj",
+        "packagesPath": "C:\\Users\\Steven_Lin\\.nuget\\packages\\",
+        "outputPath": "D:\\SideProject\\NetToolSample\\CommandLine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Steven_Lin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.249.68:5555/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\SideProject\\NetToolSample\\NetToolSample\\NetToolSample.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,6 +84,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\SideProject\\NetToolSample\\CommandLine\\CommandLine.csproj": {
+                "projectPath": "D:\\SideProject\\NetToolSample\\CommandLine\\CommandLine.csproj"
+              },
+              "D:\\SideProject\\NetToolSample\\StringExtwnsion\\StringExtension.csproj": {
+                "projectPath": "D:\\SideProject\\NetToolSample\\StringExtwnsion\\StringExtension.csproj"
+              },
               "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj": {
                 "projectPath": "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj"
               },
@@ -36,6 +97,61 @@
                 "projectPath": "D:\\SideProject\\NetToolSample\\XmlSigned\\XmlSigned.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SideProject\\NetToolSample\\StringExtwnsion\\StringExtension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SideProject\\NetToolSample\\StringExtwnsion\\StringExtension.csproj",
+        "projectName": "StringExtension",
+        "projectPath": "D:\\SideProject\\NetToolSample\\StringExtwnsion\\StringExtension.csproj",
+        "packagesPath": "C:\\Users\\Steven_Lin\\.nuget\\packages\\",
+        "outputPath": "D:\\SideProject\\NetToolSample\\StringExtwnsion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Steven_Lin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.249.68:5555/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {

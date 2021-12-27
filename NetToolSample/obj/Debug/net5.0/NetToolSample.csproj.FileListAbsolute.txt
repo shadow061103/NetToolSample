@@ -25,3 +25,7 @@ D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\runtimes\win\lib\net
 D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\XmlSigned.dll
 D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\XmlSigned.pdb
+D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\CommandLine.dll
+D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\CommandLine.pdb
+D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\StringExtension.dll
+D:\SideProject\NetToolSample\NetToolSample\bin\Debug\net5.0\StringExtension.pdb

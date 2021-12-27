@@ -133,6 +133,26 @@
           }
         }
       },
+      "CommandLine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CommandLine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommandLine.dll": {}
+        }
+      },
+      "StringExtension/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/StringExtension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringExtension.dll": {}
+        }
+      },
       "XmlSerialize/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -465,6 +485,16 @@
         "version.txt"
       ]
     },
+    "CommandLine/1.0.0": {
+      "type": "project",
+      "path": "../CommandLine/CommandLine.csproj",
+      "msbuildProject": "../CommandLine/CommandLine.csproj"
+    },
+    "StringExtension/1.0.0": {
+      "type": "project",
+      "path": "../StringExtwnsion/StringExtension.csproj",
+      "msbuildProject": "../StringExtwnsion/StringExtension.csproj"
+    },
     "XmlSerialize/1.0.0": {
       "type": "project",
       "path": "../XmlSerialize/XmlSerialize.csproj",
@@ -478,6 +508,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CommandLine >= 1.0.0",
+      "StringExtension >= 1.0.0",
       "XmlSerialize >= 1.0.0",
       "XmlSigned >= 1.0.0"
     ]
@@ -510,6 +542,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\SideProject\\NetToolSample\\CommandLine\\CommandLine.csproj": {
+              "projectPath": "D:\\SideProject\\NetToolSample\\CommandLine\\CommandLine.csproj"
+            },
+            "D:\\SideProject\\NetToolSample\\StringExtwnsion\\StringExtension.csproj": {
+              "projectPath": "D:\\SideProject\\NetToolSample\\StringExtwnsion\\StringExtension.csproj"
+            },
             "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj": {
               "projectPath": "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj"
             },

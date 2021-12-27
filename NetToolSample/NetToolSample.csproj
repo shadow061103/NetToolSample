@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommandLine\CommandLine.csproj" />
+    <ProjectReference Include="..\StringExtwnsion\StringExtension.csproj" />
     <ProjectReference Include="..\XmlSerialize\XmlSerialize.csproj" />
     <ProjectReference Include="..\XmlSigned\XmlSigned.csproj" />
   </ItemGroup>
