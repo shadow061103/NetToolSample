@@ -1,0 +1,12 @@
+D:\SideProject\NetToolSample\XmlSerialize\bin\Debug\net5.0\XmlSerialize.deps.json
+D:\SideProject\NetToolSample\XmlSerialize\bin\Debug\net5.0\XmlSerialize.dll
+D:\SideProject\NetToolSample\XmlSerialize\bin\Debug\net5.0\ref\XmlSerialize.dll
+D:\SideProject\NetToolSample\XmlSerialize\bin\Debug\net5.0\XmlSerialize.pdb
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\XmlSerialize.csproj.AssemblyReference.cache
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\XmlSerialize.GeneratedMSBuildEditorConfig.editorconfig
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\XmlSerialize.AssemblyInfoInputs.cache
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\XmlSerialize.AssemblyInfo.cs
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\XmlSerialize.csproj.CoreCompileInputs.cache
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\XmlSerialize.dll
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\ref\XmlSerialize.dll
+D:\SideProject\NetToolSample\XmlSerialize\obj\Debug\net5.0\XmlSerialize.pdb

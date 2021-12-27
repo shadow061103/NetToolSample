@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SideProject\\NetToolSample\\NetToolSample\\NetToolSample.csproj": {}
+  },
+  "projects": {
+    "D:\\SideProject\\NetToolSample\\NetToolSample\\NetToolSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SideProject\\NetToolSample\\NetToolSample\\NetToolSample.csproj",
+        "projectName": "NetToolSample",
+        "projectPath": "D:\\SideProject\\NetToolSample\\NetToolSample\\NetToolSample.csproj",
+        "packagesPath": "C:\\Users\\Steven_Lin\\.nuget\\packages\\",
+        "outputPath": "D:\\SideProject\\NetToolSample\\NetToolSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Steven_Lin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.249.68:5555/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj": {
+                "projectPath": "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj"
+              },
+              "D:\\SideProject\\NetToolSample\\XmlSigned\\XmlSigned.csproj": {
+                "projectPath": "D:\\SideProject\\NetToolSample\\XmlSigned\\XmlSigned.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj",
+        "projectName": "XmlSerialize",
+        "projectPath": "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj",
+        "packagesPath": "C:\\Users\\Steven_Lin\\.nuget\\packages\\",
+        "outputPath": "D:\\SideProject\\NetToolSample\\XmlSerialize\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Steven_Lin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.249.68:5555/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SideProject\\NetToolSample\\XmlSigned\\XmlSigned.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SideProject\\NetToolSample\\XmlSigned\\XmlSigned.csproj",
+        "projectName": "XmlSigned",
+        "projectPath": "D:\\SideProject\\NetToolSample\\XmlSigned\\XmlSigned.csproj",
+        "packagesPath": "C:\\Users\\Steven_Lin\\.nuget\\packages\\",
+        "outputPath": "D:\\SideProject\\NetToolSample\\XmlSigned\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Steven_Lin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.249.68:5555/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj": {
+                "projectPath": "D:\\SideProject\\NetToolSample\\XmlSerialize\\XmlSerialize.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Security.Cryptography.Pkcs": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Security.Cryptography.Xml": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
