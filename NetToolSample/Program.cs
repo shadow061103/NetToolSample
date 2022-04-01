@@ -11,9 +11,9 @@ namespace NetToolSample
         private static void Main(string[] args)
         {
             //XmlSerializeTest.Run();
-            //XmlSignedTest.Run();
+            XmlSignedTest.Run();
             //CmdTest.Run();
-            StringTest.Run();
+            //StringTest.Run();
             Console.ReadKey();
         }
     }
