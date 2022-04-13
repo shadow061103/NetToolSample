@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlSigned", "XmlSigned\XmlS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLine", "CommandLine\CommandLine.csproj", "{C8130AC5-62D9-4D5B-B3F0-B9D8B98A84A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtension", "StringExtwnsion\StringExtension.csproj", "{BC088CC3-B2F1-4C0F-83BB-DB573EB9F9C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringExtension", "StringExtwnsion\StringExtension.csproj", "{BC088CC3-B2F1-4C0F-83BB-DB573EB9F9C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateExcel", "GenerateExcel\GenerateExcel.csproj", "{47A0F846-1850-4D92-BA46-618BE496ED32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BC088CC3-B2F1-4C0F-83BB-DB573EB9F9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC088CC3-B2F1-4C0F-83BB-DB573EB9F9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC088CC3-B2F1-4C0F-83BB-DB573EB9F9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A0F846-1850-4D92-BA46-618BE496ED32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A0F846-1850-4D92-BA46-618BE496ED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A0F846-1850-4D92-BA46-618BE496ED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A0F846-1850-4D92-BA46-618BE496ED32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

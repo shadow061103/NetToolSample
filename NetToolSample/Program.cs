@@ -1,4 +1,5 @@
 ﻿using CommandLine;
+using GenerateExcel;
 using StringExtension;
 using System;
 using XmlSerialize;
@@ -11,9 +12,10 @@ namespace NetToolSample
         private static void Main(string[] args)
         {
             //XmlSerializeTest.Run();
-            XmlSignedTest.Run();
+            //XmlSignedTest.Run();
             //CmdTest.Run();
             //StringTest.Run();
+            OpenXmlTest.Run();
             Console.ReadKey();
         }
     }
