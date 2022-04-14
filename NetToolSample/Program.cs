@@ -15,7 +15,8 @@ namespace NetToolSample
             //XmlSignedTest.Run();
             //CmdTest.Run();
             //StringTest.Run();
-            OpenXmlTest.Run();
+            //OpenXmlTest.Run();
+            StyleExcelTest.Run();
             Console.ReadKey();
         }
     }
