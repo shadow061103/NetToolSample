@@ -10,3 +10,9 @@
 
 ### StringExtension
 - 字串轉全形或半形
+- 判斷特殊字 大於ASCII table編碼127 的會無法轉換
+### GenerateExcel
+依照model產生Excel報表
+
+### CreateFile
+產生csv檔案寫入指定資料夾

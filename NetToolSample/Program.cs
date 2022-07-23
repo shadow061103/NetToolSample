@@ -1,4 +1,5 @@
 ﻿using CommandLine;
+using FileService;
 using GenerateExcel;
 using StringExtension;
 using System;
@@ -13,10 +14,11 @@ namespace NetToolSample
         {
             //XmlSerializeTest.Run();
             //XmlSignedTest.Run();
-            CmdTest.Run();
+            //CmdTest.Run();
             //StringTest.Run();
             //OpenXmlTest.Run();
             //StyleExcelTest.Run();
+            FileServiceTest.Run();
             Console.ReadKey();
         }
     }

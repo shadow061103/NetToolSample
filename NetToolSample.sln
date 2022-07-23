@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31613.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetToolSample", "NetToolSample\NetToolSample.csproj", "{55FEC7D7-B741-4D6B-AD94-3CCD4613ADB7}"
 EndProject
@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLine", "CommandLine\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringExtension", "StringExtwnsion\StringExtension.csproj", "{BC088CC3-B2F1-4C0F-83BB-DB573EB9F9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateExcel", "GenerateExcel\GenerateExcel.csproj", "{47A0F846-1850-4D92-BA46-618BE496ED32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateExcel", "GenerateExcel\GenerateExcel.csproj", "{47A0F846-1850-4D92-BA46-618BE496ED32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileService", "FileService\FileService.csproj", "{74FE12DD-9F6C-43A9-A4DC-1D810C5AD2B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{47A0F846-1850-4D92-BA46-618BE496ED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A0F846-1850-4D92-BA46-618BE496ED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A0F846-1850-4D92-BA46-618BE496ED32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FE12DD-9F6C-43A9-A4DC-1D810C5AD2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FE12DD-9F6C-43A9-A4DC-1D810C5AD2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FE12DD-9F6C-43A9-A4DC-1D810C5AD2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FE12DD-9F6C-43A9-A4DC-1D810C5AD2B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
