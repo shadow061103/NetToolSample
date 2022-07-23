@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace CommandLine
             using (Process p = new Process())
             {
                 var startInfo = new ProcessStartInfo();
-                startInfo.FileName = "cmd.exe";
+                startInfo.FileName = GetShellString();
                 startInfo.UseShellExecute = false;        //是否使用作業系統shell啟動
                 startInfo.RedirectStandardInput = true;   //接受來自呼叫程式的輸入資訊
                 startInfo.RedirectStandardOutput = true;  //由呼叫程式獲取輸出資訊
@@ -44,6 +45,14 @@ namespace CommandLine
                 p.Close();
                 return str;
             }
+        }
+
+        private static string GetShellString()
+        {
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                return "cmd.exe";
+            else
+                return "bash";
         }
     }
 }

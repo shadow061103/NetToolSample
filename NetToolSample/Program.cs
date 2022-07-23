@@ -13,10 +13,10 @@ namespace NetToolSample
         {
             //XmlSerializeTest.Run();
             //XmlSignedTest.Run();
-            //CmdTest.Run();
+            CmdTest.Run();
             //StringTest.Run();
             //OpenXmlTest.Run();
-            StyleExcelTest.Run();
+            //StyleExcelTest.Run();
             Console.ReadKey();
         }
     }
