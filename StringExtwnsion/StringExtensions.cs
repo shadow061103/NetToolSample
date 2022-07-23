@@ -16,39 +16,46 @@ namespace StringExtension
         public static string ToSBC(this string input)
         {
             //半形轉全形：
-            char[] c = input.ToCharArray();
-            for (int i = 0; i < c.Length; i++)
+            char[] charArray = input.ToCharArray();
+            for (int i = 0; i < charArray.Length; i++)
             {
-                if (c[i] == 32)
+                if (charArray[i] == 32)
                 {
-                    c[i] = (char)12288;
+                    charArray[i] = (char)12288;
                     continue;
                 }
-                if (c[i] < 127)
-                    c[i] = (char)(c[i] + 65248);
+                if (charArray[i] < 127)
+                    charArray[i] = (char)(charArray[i] + 65248);
             }
-            return new string(c);
+            return new string(charArray);
         }
 
         /// <summary>
-        ///  轉半形的函數(SBC case)
+        /// 全形空格為12288，半形空格為32
+        /// 其他字元半形(33-126)與全形(65281-65374)的對應關係是：均相差65248
+        /// ’的ascii code為8217 轉換為'(39)
         /// </summary>
-        /// <param name="input">輸入</param>
+        /// <param name="input"></param>
         /// <returns></returns>
         public static string ToDBC(this string input)
         {
-            char[] c = input.ToCharArray();
-            for (int i = 0; i < c.Length; i++)
+            var charArray = input.ToCharArray();
+            for (int i = 0; i < charArray.Length; i++)
             {
-                if (c[i] == 12288)
+                if (charArray[i] == 12288)
                 {
-                    c[i] = (char)32;
+                    charArray[i] = (char)32;
                     continue;
                 }
-                if (c[i] > 65280 && c[i] < 65375)
-                    c[i] = (char)(c[i] - 65248);
+                if (charArray[i] == 8217)
+                {
+                    charArray[i] = (char)39;
+                    continue;
+                }
+                if (charArray[i] > 65280 && charArray[i] < 65375)
+                    charArray[i] = (char)(charArray[i] - 65248);
             }
-            return new string(c);
+            return new string(charArray);
         }
     }
 }
